@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
+        <div className="app_container">
           <Route exact path="/" component={PostCardList} />
           <Route exact path="/post/:id" component={SinglePagePost} />
         </div>
